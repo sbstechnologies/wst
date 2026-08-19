@@ -818,7 +818,7 @@ export const homePageConfig = {
 export const plans = {
   A1: {
     title: "Plan A1 · 1 Bedroom · 1 Bath",
-    price: "Starting at $1,325/mo",
+    price: "$1,325/mo",
     area: "674 sq ft",
     img: images.floor1,
     bed: "1 Bedroom",
@@ -827,7 +827,7 @@ export const plans = {
 
   A2: {
     title: "Plan A2 · 1 Bedroom · 1 Bath",
-    price: "Starting at $1,345/mo",
+    price: "$1,345/mo",
     area: "753 sq ft",
     img: images.floor2,
     bed: "1 Bedroom",
@@ -836,7 +836,7 @@ export const plans = {
 
   A3: {
     title: "Plan A3 · 1 Bedroom · 1 Bath",
-    price: "Starting at $1,395/mo",
+    price: "$1,395/mo",
     area: "789 sq ft",
     img: images.floor3,
     bed: "1 Bedroom",
@@ -845,7 +845,7 @@ export const plans = {
 
   A4: {
     title: "Plan A4 + Den · 1 Bedroom · 1 Bath",
-    price: "Starting at $1,445/mo",
+    price: "$1,445/mo",
     area: "888 sq ft",
     img: images.floor4,
     bed: "1 Bedroom + Den",
@@ -854,7 +854,7 @@ export const plans = {
 
   A5: {
     title: "Plan A5 + Den · 1 Bedroom · 1 Bath",
-    price: "Starting at $1,545/mo",
+    price: "$1,545/mo",
     area: "967 sq ft",
     img: images.floor5,
     bed: "1 Bedroom + Den",
@@ -863,7 +863,7 @@ export const plans = {
 
   B1: {
     title: "Plan B1 · 2 Bedrooms · 2 Baths",
-    price: "Starting at $1,770/mo",
+    price: "$1,770/mo",
     area: "1,030 sq ft",
     img: images.floor6,
     bed: "2 Bedrooms",
@@ -872,7 +872,7 @@ export const plans = {
 
   B2: {
     title: "Plan B2 · 2 Bedrooms · 2 Baths",
-    price: "Starting at $1,785/mo",
+    price: "$1,785/mo",
     area: "1,050 sq ft",
     img: images.floor7,
     bed: "2 Bedrooms",
@@ -881,7 +881,7 @@ export const plans = {
 
   B3: {
     title: "Plan B3 · 2 Bedrooms · 2 Baths",
-    price: "Starting at $1,845/mo",
+    price: "$1,845/mo",
     area: "1,204 sq ft",
     img: images.floor8,
     bed: "2 Bedrooms",
@@ -890,7 +890,7 @@ export const plans = {
 
   C1: {
     title: "Plan C1 · 3 Bedrooms · 2 Baths",
-    price: "Starting at $1,915/mo",
+    price: "$1,915/mo",
     area: "1,344 sq ft",
     img: images.floor9,
     bed: "3 Bedrooms",

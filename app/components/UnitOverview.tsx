@@ -59,7 +59,7 @@ type UnitOverviewProps = {
 };
 
 const bedroomPlans: Record<BedroomType, string[]> = {
-  "1bed": ["A1", "A2", "A3", "A4 + Den", "A5 + Den"],
+  "1bed": ["A1", "A2", "A3", "A4", "A5"],
   "2bed": ["B1", "B2", "B3"],
   "3bed": ["C1"],
 };
@@ -269,7 +269,7 @@ export default function UnitOverview({
                   </span>
 
                   <span className="mt-1 block text-[10px] opacity-85 sm:text-[13px]">
-                    From {bedroomPricing[type]}/month
+                    {bedroomPricing[type]}
                   </span>
                 </button>
               );
@@ -481,15 +481,6 @@ export default function UnitOverview({
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Footer divider */}
-        <div className="mt-12 hidden items-center gap-6 text-[#9ba9bf] md:flex">
-          <div className="h-px flex-1 bg-[#d8dce2]" />
-          <span className="whitespace-nowrap font-[Plus_Jakarta_Sans] text-[12px] font-semibold uppercase tracking-[0.22em]">
-            Western Station Apartment Homes · Unit Overview
-          </span>
-          <div className="h-px flex-1 bg-[#d8dce2]" />
         </div>
       </div>
     </section>
