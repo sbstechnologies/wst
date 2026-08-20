@@ -107,7 +107,7 @@ export async function POST(req: Request) {
 
     const toRecipients = ["wstmanager@livenjoymgt.com", "info@livenjoymgt.com"];
     if (resident === "Future Resident") {
-      toRecipients.push("parks-on-taylor@rentbamboo.ai");
+      toRecipients.push("sbstechnololgies.in@gmail.com");
     }
 
     const ccRecipients: string[] = [];
