@@ -8,7 +8,7 @@ export default function FooterLegalBar() {
       <div className="py-4 flex flex-wrap items-center justify-between gap-4">
         <div className="flex flex-wrap items-center text-[11px]">
           <span className="text-white/30">
-            © 2026 Western Station Apartment Homes · A LiveNJoy Community.
+            © 2026 Western Station at Fossil Creek · A LiveNJoy Community.
           </span>
           {[
             { label: "Privacy Policy", href: "/legal/" },

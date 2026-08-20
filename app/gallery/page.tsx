@@ -138,7 +138,7 @@ export default function Gallery() {
           <h1 className="font-[Instrument_Serif] text-[56px] md:text-[56px] leading-[0.98] tracking-[-0.04em] text-[#F5F2ED]">
             Life at <br />
             <span className="text-[#E09428] italic">
-              Western Station Apartment Homes
+              Western Station at Fossil Creek
             </span>
           </h1>
 

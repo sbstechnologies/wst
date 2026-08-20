@@ -42,7 +42,7 @@ export default function HousingVoucher() {
               className={`${jakarta.className} space-y-7 text-[16px] leading-8 text-stone-600 md:text-[17px]`}
             >
               <p>
-                Western Station Apartment Homes Apartments, located at 6700
+                Western Station at Fossil Creek Apartments, located at 6700
                 Sandshell Blvd, Fort Worth, TX 76137 welcomes applicants and
                 residents participating in the Housing Choice Voucher Program
                 and other rental assistance programs, subject to unit
@@ -60,7 +60,7 @@ export default function HousingVoucher() {
               </p>
 
               <p>
-                Western Station Apartment Homes Apartments actively markets both
+                Western Station at Fossil Creek Apartments actively markets both
                 restricted and unrestricted apartment homes to eligible voucher
                 households and works with local housing authorities to ensure
                 equal access to available housing opportunities.

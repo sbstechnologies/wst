@@ -224,7 +224,7 @@ export default function SendMessage() {
 
             <p className="text-justify text-[13px] leading-5 text-gray-500">
               By providing your phone number, you agree to receive text messages
-              from Western Station Apartment Homes regarding leasing and
+              from Western Station at Fossil Creek regarding leasing and
               maintenance. Message & data rates may apply. Reply STOP to opt
               out. View our{" "}
               <Link

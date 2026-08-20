@@ -159,7 +159,7 @@ export async function POST(req: Request) {
         opacity:0.9;
       "
     >
-      Western Station Apartment Homes -
+      Western Station at Fossil Creek -
       A new inquiry has been received from the website
     </p>
   </div>
@@ -401,7 +401,7 @@ export async function POST(req: Request) {
         font-weight:700;
       "
     >
-      Western Station Apartment Homes
+      Western Station at Fossil Creek
     </div>
 
     <div style="margin-top:8px;">
@@ -424,7 +424,7 @@ export async function POST(req: Request) {
 
     <div style="margin-top:10px;">
       © ${new Date().getFullYear()}
-      Western Station Apartment Homes.
+      Western Station at Fossil Creek.
       All Rights Reserved.
     </div>
 

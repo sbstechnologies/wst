@@ -59,7 +59,7 @@ export default function Contact() {
 
                 <div>
                   <h3 className="text-[18px] font-semibold text-[#1f2937]">
-                    Western Station Apartment Homes
+                    Western Station at Fossil Creek
                   </h3>
 
                   <p className="mt-1 text-[16px] leading-[1.6] text-[#4b5563]">
@@ -170,7 +170,7 @@ export default function Contact() {
               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl lg:aspect-[16/8]">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13405.46516693977!2d-97.3187422!3d32.8620267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e762b412a7fad%3A0x9959db6eb890346e!2sWestern%20Station%20apartments!5e0!3m2!1sen!2sin!4v1786953272250!5m2!1sen!2sin"
-                  title="Western Station Apartment Homes — 6700 Sandshell Blvd, Fort Worth, TX 76137"
+                  title="Western Station at Fossil Creek — 6700 Sandshell Blvd, Fort Worth, TX 76137"
                   className="absolute inset-0 h-full w-full border-0"
                   loading="lazy"
                   allowFullScreen
@@ -190,7 +190,7 @@ export default function Contact() {
 
                   <div>
                     <h3 className="text-[18px] font-semibold text-[#1f2937]">
-                      Western Station Apartment Homes
+                      Western Station at Fossil Creek
                     </h3>
 
                     <p className="mt-1 text-[12px] leading-[1.6] text-[#4b5563]">

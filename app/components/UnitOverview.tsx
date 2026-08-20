@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import TourScheduler from "./TourScheduler";
 
 type BedroomType = "1bed" | "2bed" | "3bed";
 type GalleryTab = "photos" | "amenities";
@@ -47,6 +48,16 @@ type UnitImages = {
   home15: string;
   home16: string;
   home17: string;
+  home18: string;
+  home19: string;
+  home20: string;
+  home21: string;
+  home22: string;
+  home23: string;
+  home24: string;
+  home25: string;
+  home26: string;
+  home27: string;
 };
 
 type UnitOverviewProps = {
@@ -83,7 +94,7 @@ const photoCategories = [
   "Bathroom",
 ] as const;
 
-const amenityCategories = ["Pool", "Parking", "Dog Park", "Laundry"] as const;
+const amenityCategories = ["Pool", "Parking", "Dog Park", "Gym"] as const;
 
 export default function UnitOverview({
   plans,
@@ -132,6 +143,12 @@ export default function UnitOverview({
       </section>
     );
   }
+  const [showTourScheduler, setShowTourScheduler] = useState(false);
+
+  const handleScheduleTour = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    setShowTourScheduler(true);
+  };
 
   const interiorPhotos = useMemo(
     () => ({
@@ -145,10 +162,10 @@ export default function UnitOverview({
 
   const amenityPhotos = useMemo(
     () => ({
-      Pool: images.home15,
-      Parking: images.home1,
+      Pool: images.home16,
+      Parking: images.home3,
       "Dog Park": images.home2,
-      Laundry: images.home11,
+      Gym: images.home27,
     }),
     [images],
   );
@@ -171,15 +188,6 @@ export default function UnitOverview({
 
     setBedroomType(type);
     setSelectedPlan(availablePlanIds[0] ?? bedroomDefaults[type]);
-  };
-
-  const handleScheduleTour = () => {
-    if (onScheduleTour && currentPlan && safeSelectedPlan) {
-      onScheduleTour(currentPlan, safeSelectedPlan);
-      return;
-    }
-
-    window.location.href = `tel:${phone}`;
   };
 
   return (
@@ -327,7 +335,7 @@ export default function UnitOverview({
               {floorPlanImage ? (
                 <img
                   src={floorPlanImage}
-                  alt={`${currentPlan.title} floor plan at Western Station Apartment Homes`}
+                  alt={`${currentPlan.title} floor plan at Western Station at Fossil Creek`}
                   className="h-full w-full object-contain p-4 sm:p-6 md:p-8"
                   loading="lazy"
                 />
@@ -483,6 +491,10 @@ export default function UnitOverview({
           </div>
         </div>
       </div>
+      <TourScheduler
+        open={showTourScheduler}
+        onClose={() => setShowTourScheduler(false)}
+      />
     </section>
   );
 }

@@ -30,16 +30,16 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.westernstationapartments.com"),
 
   title: {
-    default: "Western Station Apartment Homes | Apartments in Fort Worth, TX",
-    template: "%s | Western Station Apartment Homes",
+    default: "Western Station at Fossil Creek | Apartments in Fort Worth, TX",
+    template: "%s | Western Station at Fossil Creek",
   },
 
   description:
-    "Discover Western Station Apartment Homes in North Fort Worth. Explore spacious 1, 2 and 3 bedroom apartments, premium amenities, floor plans and leasing options.",
+    "Discover Western Station at Fossil Creek in North Fort Worth. Explore spacious 1, 2 and 3 bedroom apartments, premium amenities, floor plans and leasing options.",
 
   keywords: [
     "Western Station Apartments",
-    "Western Station Apartment Homes",
+    "Western Station at Fossil Creek",
     "Fort Worth Apartments",
     "North Fort Worth Apartments",
     "Apartments in Fort Worth TX",
@@ -54,17 +54,17 @@ export const metadata: Metadata = {
     "Apartments with Attached Garage",
   ],
 
-  applicationName: "Western Station Apartment Homes",
+  applicationName: "Western Station at Fossil Creek",
 
   authors: [
     {
-      name: "Western Station Apartment Homes",
+      name: "Western Station at Fossil Creek",
       url: "https://www.westernstationapartments.com",
     },
   ],
 
-  creator: "Western Station Apartment Homes",
-  publisher: "Western Station Apartment Homes",
+  creator: "Western Station at Fossil Creek",
+  publisher: "Western Station at Fossil Creek",
   category: "Real Estate",
 
   alternates: {
@@ -89,8 +89,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.westernstationapartments.com",
-    siteName: "Western Station Apartment Homes",
-    title: "Western Station Apartment Homes | Fort Worth, TX",
+    siteName: "Western Station at Fossil Creek",
+    title: "Western Station at Fossil Creek | Fort Worth, TX",
     description:
       "Modern apartment living in North Fort Worth with spacious 1, 2 and 3 bedroom homes, premium amenities and convenient access to I-35 and Loop 820.",
     images: [
@@ -98,14 +98,14 @@ export const metadata: Metadata = {
         url: "/apple-touch-icon.png",
         width: 1200,
         height: 630,
-        alt: "Western Station Apartment Homes",
+        alt: "Western Station at Fossil Creek",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Western Station Apartment Homes | Fort Worth, TX",
+    title: "Western Station at Fossil Creek | Fort Worth, TX",
     description:
       "Discover spacious apartment homes and premium amenities in North Fort Worth.",
     images: ["/apple-touch-icon.png"],
@@ -142,10 +142,10 @@ const apartmentSchema = {
   "@context": "https://schema.org",
   "@type": "ApartmentComplex",
 
-  name: "Western Station Apartment Homes",
+  name: "Western Station at Fossil Creek",
 
   description:
-    "Western Station Apartment Homes offers spacious one, two and three bedroom apartment homes in North Fort Worth, Texas.",
+    "Western Station at Fossil Creek offers spacious one, two and three bedroom apartment homes in North Fort Worth, Texas.",
 
   url: "https://www.westernstationapartments.com",
 

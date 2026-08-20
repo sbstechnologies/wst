@@ -39,7 +39,7 @@ const defaultMessages: Message[] = [
   {
     id: 1,
     sender: "bot",
-    text: "Hi there! 👋 I'm Lori, your Western Station Apartment Homes AI assistant. What can I help you with today?",
+    text: "Hi there! 👋 I'm Lori, your Western Station at Fossil Creek AI assistant. What can I help you with today?",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function LoriChatWidget() {
       "Thanks for reaching out! Our leasing team will have the best answer for that. Is there anything else I can help with?";
 
     if (input.toLowerCase().includes("location")) {
-      reply = "Western Station Apartment Homes is located in Sherman, TX.";
+      reply = "Western Station at Fossil Creek is located in Sherman, TX.";
     } else if (input.toLowerCase().includes("pricing")) {
       reply = pricingText;
     }
@@ -202,10 +202,10 @@ export default function LoriChatWidget() {
                         item.label === "Plans"
                           ? plansText
                           : item.label === "Pets"
-                            ? "🐾 Western Station Apartment Homes is pet friendly — cats and dogs are welcome."
+                            ? "🐾 Western Station at Fossil Creek is pet friendly — cats and dogs are welcome."
                             : item.label === "Parking"
                               ? "🚗 Resident Parking is available for residents."
-                              : "📝 Apply online anytime through the Western Station Apartment Homes resident portal.",
+                              : "📝 Apply online anytime through the Western Station at Fossil Creek resident portal.",
                       )
                     }
                     className="flex items-center gap-1 rounded-full border border-[#183d88] bg-[#06184d] px-2 py-1 text-[10px]"

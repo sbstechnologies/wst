@@ -40,74 +40,74 @@ export const images = {
   // ==============================
 
   property_alt1:
-    "Clubhouse at Western Station Apartment Homes in Fort Worth Texas",
+    "Clubhouse at Western Station at Fossil Creek in Fort Worth Texas",
 
   property_alt2:
-    "Bark Park and pet friendly amenities at Western Station Apartment Homes",
+    "Bark Park and pet friendly amenities at Western Station at Fossil Creek",
 
   property_alt3:
-    "Community overview of Western Station Apartment Homes in Fort Worth Texas",
+    "Community overview of Western Station at Fossil Creek in Fort Worth Texas",
 
   property_alt4:
-    "Community entrance at Western Station Apartment Homes in Fort Worth Texas",
+    "Community entrance at Western Station at Fossil Creek in Fort Worth Texas",
 
-  property_alt5: "Modern living room at Western Station Apartment Homes",
+  property_alt5: "Modern living room at Western Station at Fossil Creek",
 
   property_alt6:
-    "Spacious apartment living room at Western Station Apartment Homes",
+    "Spacious apartment living room at Western Station at Fossil Creek",
 
   property_alt7:
-    "Modern apartment interior living space at Western Station Apartment Homes",
+    "Modern apartment interior living space at Western Station at Fossil Creek",
 
-  property_alt8: "Modern dining room at Western Station Apartment Homes",
+  property_alt8: "Modern dining room at Western Station at Fossil Creek",
 
-  property_alt9: "Modern apartment kitchen at Western Station Apartment Homes",
+  property_alt9: "Modern apartment kitchen at Western Station at Fossil Creek",
 
   property_alt10:
-    "Luxury kitchen with premium finishes at Western Station Apartment Homes",
+    "Luxury kitchen with premium finishes at Western Station at Fossil Creek",
 
   property_alt11:
-    "Living room with kitchen view at Western Station Apartment Homes",
+    "Living room with kitchen view at Western Station at Fossil Creek",
 
   property_alt12:
-    "Spacious hallway and living room at Western Station Apartment Homes",
+    "Spacious hallway and living room at Western Station at Fossil Creek",
 
   property_alt13:
-    "Living room with television at Western Station Apartment Homes",
+    "Living room with television at Western Station at Fossil Creek",
 
-  property_alt14: "Large living room at Western Station Apartment Homes",
+  property_alt14: "Large living room at Western Station at Fossil Creek",
 
   property_alt15:
-    "Swimming pool and outdoor lounge at Western Station Apartment Homes",
+    "Swimming pool and outdoor lounge at Western Station at Fossil Creek",
 
-  property_alt16: "Two swimming pools at Western Station Apartment Homes",
+  property_alt16: "Two swimming pools at Western Station at Fossil Creek",
 
-  property_alt17: "Modern swimming pool at Western Station Apartment Homes",
+  property_alt17: "Modern swimming pool at Western Station at Fossil Creek",
 
-  property_alt18: "Spacious swimming pool at Western Station Apartment Homes",
+  property_alt18: "Spacious swimming pool at Western Station at Fossil Creek",
 
-  property_alt19: "Clubhouse kitchen lounge at Western Station Apartment Homes",
+  property_alt19: "Clubhouse kitchen lounge at Western Station at Fossil Creek",
 
   property_alt20:
-    "Life size chessboard and outdoor recreation area at Western Station Apartment Homes",
+    "Life size chessboard and outdoor recreation area at Western Station at Fossil Creek",
 
-  property_alt21: "Life size chessboard at Western Station Apartment Homes",
+  property_alt21: "Life size chessboard at Western Station at Fossil Creek",
 
   property_alt22:
-    "Life size chessboard and outdoor recreation area at Western Station Apartment Homes",
+    "Life size chessboard and outdoor recreation area at Western Station at Fossil Creek",
 
-  property_alt23: "Valet trash service at Western Station Apartment Homes",
+  property_alt23: "Valet trash service at Western Station at Fossil Creek",
 
   property_alt24:
-    "Door-to-door valet trash service at Western Station Apartment Homes",
+    "Door-to-door valet trash service at Western Station at Fossil Creek",
 
   property_alt25:
-    "Clubhouse with resident lounge at Western Station Apartment Homes",
+    "Clubhouse with resident lounge at Western Station at Fossil Creek",
 
   property_alt26:
-    "Clubhouse resident lounge at Western Station Apartment Homes",
+    "Clubhouse resident lounge at Western Station at Fossil Creek",
 
-  property_alt27: "24-hour fitness center at Western Station Apartment Homes",
+  property_alt27: "24-hour fitness center at Western Station at Fossil Creek",
 
   // ==============================
   // FLOOR PLAN IMAGES
@@ -188,7 +188,7 @@ export const images = {
 // ======================================================
 
 export const siteConfig = {
-  name: "Western Station Apartment Homes",
+  name: "Western Station at Fossil Creek",
   shortName: "Western Station",
 
   address: "6700 Sandshell Blvd, Fort Worth, TX 76137",
@@ -312,7 +312,7 @@ export const footerLocation = [
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Ask our leasing team about current leasing specials.",
+  text: "Huge Leasing Specials! Act fast for our best rates!",
 };
 
 // ======================================================
@@ -322,8 +322,8 @@ export const lookLeaseSpecial = {
 export const headerConfig = {
   logo: {
     image_url: "/images/logo.png",
-    title: "Western Station",
-    alt_title: "Western Station Apartment Homes Logo",
+    title: "Western Station at Fossil Creek",
+    alt_title: "Western Station at Fossil Creek Logo",
     subtitle: "Fort Worth, TX · A LiveNJoy Community",
   },
 
@@ -483,17 +483,17 @@ export const PromoCardWidgetConfig = {
 
   cards: [
     {
-      title: "Leasing Specials",
-      text: "Ask our leasing team about",
-      highlight: "current offers",
-      suffix: "and availability.",
+      title: "Huge Leasing Specials",
+      text: "Act fast to lock in our",
+      highlight: "best rates",
+      suffix: "limited availability remaining.",
       theme: "orange",
     },
     {
       title: "Contact Us Today",
       text: "",
-      highlight: "Call (817) 577-8666",
-      suffix: " for current leasing details.",
+      highlight: "Call us right now",
+      suffix: " for full details on current offers. Restrictions apply",
       theme: "blue",
     },
   ],
@@ -710,7 +710,7 @@ export const homePageConfig = {
       years: "Western Station Resident",
       initials: "WR",
       rating: 5,
-      text: "I love having a spacious home with the amenities and everyday conveniences I need close by. Western Station makes it easy to enjoy a comfortable lifestyle in North Fort Worth.",
+      text: "Favorite apartment I've had in the area. I had a friend who lived here and I always loved visiting- new build, brand new appliances, lots of space/storage, great location, balcony, etc. When my lease was up at my old place, Western Station was at the top of my list. I love living here!",
     },
 
     {
@@ -906,10 +906,10 @@ export const interiorPhotos = {
 } as const;
 
 export const amenityPhotos = {
-  Pool: images.home5,
-  Parking: images.home6,
+  Pool: images.home16,
+  Parking: images.home3,
   "Dog Park": images.home7,
-  Laundry: images.home8,
+  Gym: images.home27,
 } as const;
 
 export const defaultPreviewImg = images.home14;
@@ -922,7 +922,7 @@ export type PreviewCategory =
   | "Kitchen"
   | "Bathroom";
 
-export type AmenityCategory = "Pool" | "Parking" | "Dog Park" | "Laundry";
+export type AmenityCategory = "Pool" | "Parking" | "Dog Park" | "Gym";
 
 // ======================================================
 // FLOOR PLANS
@@ -1167,177 +1167,174 @@ export const gallery: GalleryItem[] = [
   // --------------------------------------------------
   // EXTERIORS
   // --------------------------------------------------
-
   {
     src: images.home1,
-    name: "Clubhouse",
-    alt: "Beautiful clubhouse at Western Station Apartment Homes in North Fort Worth, Texas",
+    name: "Leasing Office Entrance",
+    alt: "Leasing office entrance at Western Station at Fossil Creek in North Fort Worth, Texas",
     category: "Exteriors",
   },
   {
     src: images.home2,
-    name: "Bark Park",
-    alt: "Pet-friendly Bark Park at Western Station Apartment Homes in North Fort Worth",
+    name: "Landscaped Grounds & Entrance Drive",
+    alt: "Landscaped grounds and entrance drive at Western Station at Fossil Creek in North Fort Worth, Texas",
     category: "Exteriors",
   },
   {
     src: images.home3,
-    name: "Community Overview",
-    alt: "Aerial community view of Western Station Apartment Homes in North Fort Worth",
+    name: "Property Entrance & Signage",
+    alt: "Property entrance and community signage at Western Station at Fossil Creek in North Fort Worth, Texas",
     category: "Exteriors",
   },
   {
     src: images.home4,
-    name: "Community Entrance",
-    alt: "Welcoming entrance to Western Station Apartment Homes in Fort Worth, Texas",
+    name: "Main Monument Entrance Sign",
+    alt: "Main monument entrance sign at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Exteriors",
   },
 
   // --------------------------------------------------
   // INTERIORS
   // --------------------------------------------------
-
   {
     src: images.home5,
-    name: "Inviting Living Room",
-    alt: "Inviting apartment living room with modern finishes at Western Station",
+    name: "Resident Clubhouse Lounge",
+    alt: "Resident clubhouse lounge at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home6,
-    name: "Spacious Living Room",
-    alt: "Spacious living room with contemporary finishes at Western Station Apartment Homes",
+    name: "Clubhouse Lobby & Coffee Station",
+    alt: "Clubhouse lobby and coffee station at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home7,
-    name: "Modern Living Space",
-    alt: "Modern apartment living space with stylish finishes at Western Station",
+    name: "Clubhouse Seating & Welcome Area",
+    alt: "Clubhouse seating and welcome area at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home8,
     name: "Dining Area",
-    alt: "Modern apartment dining area designed for comfortable everyday living at Western Station",
+    alt: "Apartment dining area at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home9,
-    name: "Modern Kitchen",
-    alt: "Modern apartment kitchen with contemporary finishes at Western Station Apartment Homes",
+    name: "Full Range Kitchen",
+    alt: "Apartment kitchen with full range appliances at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home10,
-    name: "Luxury Kitchen",
-    alt: "Luxury apartment kitchen with premium finishes at Western Station in Fort Worth",
+    name: "Full Range Kitchen #2",
+    alt: "Second view of an apartment kitchen with full range appliances at Western Station at Fossil Creek",
     category: "Interiors",
   },
   {
     src: images.home11,
-    name: "Open Living & Kitchen",
-    alt: "Open-concept living room and kitchen at Western Station Apartment Homes",
+    name: "Lounge & Pool Walkout",
+    alt: "Resident lounge with pool walkout at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home12,
-    name: "Spacious Living Area",
-    alt: "Spacious hallway and living area inside a Western Station apartment home",
+    name: "Social Lounge & Fireplace",
+    alt: "Social lounge and fireplace at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home13,
     name: "Entertainment Living Room",
-    alt: "Comfortable living room with television and modern interior finishes at Western Station",
+    alt: "Entertainment living room at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
   {
     src: images.home14,
-    name: "Large Living Room",
-    alt: "Large apartment living room offering comfortable space at Western Station Apartment Homes",
+    name: "Resident Clubhouse Lounge",
+    alt: "Resident clubhouse lounge with comfortable seating at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Interiors",
   },
 
   // --------------------------------------------------
   // AMENITIES
   // --------------------------------------------------
-
   {
     src: images.home15,
-    name: "Pool & Outdoor Lounge",
-    alt: "Resort-style swimming pool and outdoor lounge at Western Station Apartment Homes",
+    name: "Resort-Style Swimming Pool & Sundeck",
+    alt: "Resort-style swimming pool and sundeck at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home16,
-    name: "Swimming Pools",
-    alt: "Two sparkling swimming pools at Western Station Apartment Homes in Fort Worth",
+    name: "Swimming Pool & Courtyard View",
+    alt: "Swimming pool and courtyard view at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home17,
-    name: "Resort-Style Pool",
-    alt: "Modern resort-style swimming pool at Western Station Apartment Homes",
+    name: "Swimming Pool & Residential Surround",
+    alt: "Swimming pool surrounded by apartment homes at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home18,
-    name: "Pool Area",
-    alt: "Spacious swimming pool area for relaxing and enjoying the outdoors at Western Station",
+    name: "Covered Outdoor Kitchen & BBQ Grills",
+    alt: "Covered outdoor kitchen and BBQ grills at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home19,
-    name: "Clubhouse Kitchen Lounge",
-    alt: "Clubhouse kitchen and resident lounge at Western Station Apartment Homes",
+    name: "Life-Size Chessboard & Courtyard",
+    alt: "Life-size chessboard and courtyard at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home20,
-    name: "Life-Size Chess",
-    alt: "Life-size outdoor chessboard and recreation area at Western Station Apartment Homes",
+    name: "Courtyard Games & Gathering Lawn",
+    alt: "Courtyard games and gathering lawn at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home21,
-    name: "Outdoor Recreation",
-    alt: "Outdoor recreation area with life-size chess at Western Station Apartment Homes",
+    name: "Outdoor Stone Fireplace & Social Patio",
+    alt: "Outdoor stone fireplace and social patio at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home22,
-    name: "Community Recreation",
-    alt: "Outdoor community recreation space at Western Station Apartment Homes",
+    name: "Courtyard Fireplace & Seating Plaza",
+    alt: "Courtyard fireplace and seating plaza at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home23,
-    name: "Valet Trash Service",
-    alt: "Convenient valet trash service available to residents at Western Station Apartment Homes",
+    name: "Outdoor Lounge & Relaxing Courtyard",
+    alt: "Outdoor lounge and relaxing courtyard at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home24,
-    name: "Door-to-Door Valet Trash",
-    alt: "Door-to-door valet trash service for residents at Western Station Apartment Homes",
+    name: "Covered Outdoor Pavilion & Media Lounge",
+    alt: "Covered outdoor pavilion and media lounge at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home25,
-    name: "Resident Lounge",
-    alt: "Comfortable clubhouse resident lounge at Western Station Apartment Homes",
+    name: "Covered Outdoor Lounge & Seating Nook",
+    alt: "Covered outdoor lounge and seating nook at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home26,
     name: "Clubhouse Lounge",
-    alt: "Stylish clubhouse lounge and shared resident space at Western Station Apartment Homes",
+    alt: "Clubhouse lounge and shared resident space at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
   {
     src: images.home27,
-    name: "24-Hour Fitness Center",
-    alt: "Modern 24-hour fitness center at Western Station Apartment Homes in Fort Worth",
+    name: "24-Hour Fitness Center & Cardio Studio",
+    alt: "24-hour fitness center and cardio studio at Western Station at Fossil Creek in Fort Worth, Texas",
     category: "Amenities",
   },
 ];
@@ -1384,7 +1381,7 @@ export const posts: Post[] = [
 
       "Beyond Alexandra Meadows Park, North Fort Worth has a variety of green spaces and recreational areas to explore. Whether your ideal weekend includes walking, biking, a casual picnic, outdoor games, or simply finding a peaceful place to unwind, there are plenty of options nearby.",
 
-      "Living at Western Station Apartment Homes makes it easy to incorporate outdoor time into your everyday routine. Start your morning with a walk, plan an afternoon at a nearby park, or explore a new outdoor destination on the weekend—all while enjoying the convenience of calling North Fort Worth home.",
+      "Living at Western Station at Fossil Creek makes it easy to incorporate outdoor time into your everyday routine. Start your morning with a walk, plan an afternoon at a nearby park, or explore a new outdoor destination on the weekend—all while enjoying the convenience of calling North Fort Worth home.",
     ],
   },
 
@@ -1403,7 +1400,7 @@ export const posts: Post[] = [
     img: images.blog3,
 
     content: [
-      "When you want to make the most of your weekend, Alliance Town Center is an easy destination to add to your plans. Located near Western Station Apartment Homes, this vibrant shopping and lifestyle destination brings together retail, restaurants, entertainment, and everyday conveniences in one convenient area.",
+      "When you want to make the most of your weekend, Alliance Town Center is an easy destination to add to your plans. Located near Western Station at Fossil Creek, this vibrant shopping and lifestyle destination brings together retail, restaurants, entertainment, and everyday conveniences in one convenient area.",
 
       "Start your day by browsing your favorite stores, discovering something new, or picking up essentials. When it's time for a break, choose from a variety of restaurants and casual dining spots for lunch, coffee, or dinner with friends and family.",
 
@@ -1434,7 +1431,7 @@ export const posts: Post[] = [
 
       "For a more casual experience, keep an eye out for local food trucks, seasonal markets, specialty shops, and neighborhood favorites. These smaller food experiences are a great way to discover new flavors while supporting local businesses throughout the Fort Worth area.",
 
-      "Living at Western Station Apartment Homes puts you close to the restaurants and everyday conveniences of North Fort Worth. Instead of traveling far for your next meal, take some time to explore the neighborhood and discover a new favorite place to eat.",
+      "Living at Western Station at Fossil Creek puts you close to the restaurants and everyday conveniences of North Fort Worth. Instead of traveling far for your next meal, take some time to explore the neighborhood and discover a new favorite place to eat.",
     ],
   },
 
@@ -1485,7 +1482,7 @@ export const posts: Post[] = [
 
       "If you prefer a quieter experience, the Fort Worth Botanic Garden offers a completely different way to enjoy the outdoors. Wander through beautiful gardens, explore different plant collections, take photographs, or simply slow down and enjoy the peaceful surroundings.",
 
-      "One of the advantages of living at Western Station Apartment Homes is having access to the many experiences that make Fort Worth an exciting place to live. From outdoor adventures to dining, shopping, and entertainment, your next weekend getaway may be closer than you think.",
+      "One of the advantages of living at Western Station at Fossil Creek is having access to the many experiences that make Fort Worth an exciting place to live. From outdoor adventures to dining, shopping, and entertainment, your next weekend getaway may be closer than you think.",
     ],
   },
 ];
@@ -1509,7 +1506,7 @@ export const featuredPost: Post = {
   img: images.blog1,
 
   content: [
-    "Living at Western Station Apartment Homes means having more than a comfortable place to call home. It also means being close to the restaurants, entertainment, shopping, and everyday conveniences that make North Fort Worth such a great place to live.",
+    "Living at Western Station at Fossil Creek means having more than a comfortable place to call home. It also means being close to the restaurants, entertainment, shopping, and everyday conveniences that make North Fort Worth such a great place to live.",
 
     "If you're craving authentic Texas BBQ, Fossil Creek has plenty of options to satisfy your appetite. Slow-smoked brisket, tender ribs, flavorful sausage, and classic BBQ sides make the area a great destination for a relaxed lunch, family dinner, or weekend meal.",
 
@@ -1517,7 +1514,7 @@ export const featuredPost: Post = {
 
     "One of the advantages of living at Western Station is the convenience of having great food and everyday essentials within easy reach. Located at 6700 Sandshell Blvd in Fort Worth, the community provides convenient access to the surrounding Fossil Creek and North Fort Worth areas.",
 
-    "After exploring the neighborhood, come home to the comfort of Western Station Apartment Homes. With thoughtfully designed one, two, and three bedroom floor plans, resort-style swimming pools, fitness amenities, outdoor spaces, and pet-friendly features, Western Station makes it easy to enjoy both home and the neighborhood around you.",
+    "After exploring the neighborhood, come home to the comfort of Western Station at Fossil Creek. With thoughtfully designed one, two, and three bedroom floor plans, resort-style swimming pools, fitness amenities, outdoor spaces, and pet-friendly features, Western Station makes it easy to enjoy both home and the neighborhood around you.",
 
     "Whether you're a longtime Fort Worth resident or searching for your next apartment home, Western Station puts you close to great local food and everything you need to enjoy life in North Fort Worth.",
   ],

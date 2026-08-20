@@ -220,7 +220,7 @@ export default function Home() {
               Luxury Apartment Homes
               <br />
               <em className="inline-block italic text-[#E09428]/90">
-                in North Fort Worth, TX
+                in North Fort Worth
               </em>
             </h1>
 
@@ -235,9 +235,8 @@ export default function Home() {
 
             {/* 4. SUBTEXT */}
             <p className="text-[clamp(12px,1.3vw,15px)] leading-[1.72] text-[#F5F2ED]/70 mb-10 max-w-[500px]">
-              An unrivaled living experience tucked away in Fossil Creek,
-              Minutes from award-winning schools, fine dining, and endless
-              entertainment.
+              A peaceful, welcoming retreat tucked away in Fossil Creek with
+              spacious layouts and effortless city access.
             </p>
 
             {/* 5. CTA BUTTONS */}
@@ -378,28 +377,34 @@ export default function Home() {
       {/* ================= LOCATION INTRO ================= */}
       <section
         id="neighborhood"
-        className="bg-[#f1eee9]  px-6 xs:px-6 sm:px-6 md:px-20 lg:px-40 xl:px-40 xxl:px-80 mx-auto py-10 md:py-14 lg:py-20"
+        className="bg-[#f1eee9] px-6 sm:px-8 md:px-12 lg:px-20 xl:px-28 2xl:px-40 py-10 md:py-14 lg:py-20"
       >
-        <div className="max-w-[1920px] mx-auto grid md:grid-cols-2 gap-8 sm:gap-10 items-center">
+        <div className="max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 xl:gap-28 items-center">
+          {/* Heading */}
           <div>
             <p className="font-[Plus_Jakarta_Sans] text-xs tracking-[3px] uppercase text-[#7b7f7d] mb-4 font-bold">
               Your Neighborhood
             </p>
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-[Instrument_Serif] text-[#2d3230] leading-[1.2]">
+
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[Instrument_Serif] text-[#2d3230] leading-[1.2]">
               Discover The <br />
               Best of Fort Worth.
             </h2>
           </div>
-          <p className="font-[Plus_Jakarta_Sans] text-md md:text-base text-[#5a6260] leading-relaxed max-w-xl">
-            Western Station is tucked away just north of Fort Worth in Fossil
-            Creek, a community bursting with entertainment, outdoor activities,
-            and mouth watering restaurants. Just minutes from several parks
-            perfect for enjoying the sunshine or embarking on long runs, and
-            within a few minutes of several award winning schools for all ages
-          </p>
+
+          {/* Description */}
+          <div className="lg:pl-8 xl:pl-12">
+            <p className="font-[Plus_Jakarta_Sans] text-sm md:text-base text-[#5a6260] text-justify leading-relaxed max-w-xxl">
+              Western Station is tucked away just north of Fort Worth in Fossil
+              Creek, a community bursting with entertainment, outdoor
+              activities, and mouth watering restaurants. Just minutes from
+              several parks perfect for enjoying the sunshine or embarking on
+              long runs, and within a few minutes of several award winning
+              schools for all ages.
+            </p>
+          </div>
         </div>
       </section>
-
       {/* ================= LOCATION MAP + DESTINATIONS ================= */}
       <section className="bg-[#f1eee9] px-6 xs:px-6 sm:px-6 md:px-20 lg:px-40 xl:px-40 xxl:px-80 mx-auto">
         <div className="max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  xxl:grid-cols-2 gap-6 lg:gap-8 items-start">
@@ -1040,9 +1045,9 @@ export default function Home() {
           </p>
 
           <h2
-            className={`${instrumentSerif.className} text-[clamp(2rem,5vw,4.2rem)] font-normal leading-[1.06] tracking-[-0.03em] text-[#f5f2ed] mb-5 max-w-[680px] mx-auto`}
+            className={`${instrumentSerif.className} text-[clamp(2rem,5vw,4.2rem)] font-normal leading-[1.06] tracking-[-0.03em] text-[#f5f2ed] mb-5 max-w-[1920px] mx-auto`}
           >
-            Make Western Station Apartment Homes
+            Make Western Station at Fossil Creek
             <br />
             <span className="text-[rgba(245,242,237,0.6)] italic">
               Your Home

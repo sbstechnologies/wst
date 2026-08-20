@@ -665,7 +665,7 @@ export default function Floor() {
 
         <div className="relative z-10 max-w-[680px]">
           <p className="text-xs tracking-[0.3em] text-[#E09428] mb-6 mt-[15px] font-bold uppercase">
-            Western Station Apartment Homes . Fort Worth, TX
+            Western Station at Fossil Creek . Fort Worth, TX
           </p>
 
           <h1 className="font-[Instrument_Serif] text-[56px] md:text-[56px] leading-[0.98] tracking-[-0.04em] text-[#F5F2ED]">

@@ -53,7 +53,7 @@ export default function LegalContent() {
           Your privacy and informed consent are important to us. This Privacy
           Policy explains how{" "}
           <strong className="font-semibold text-[#232323]">
-            Western Station Apartment Homes
+            Western Station at Fossil Creek
           </strong>{" "}
           and{" "}
           <strong className="font-semibold text-[#232323]">
@@ -351,7 +351,7 @@ export default function LegalContent() {
 
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B] mb-5">
           Our website may contain links to third-party websites for your
-          convenience. Western Station Apartment Homes and LiveNJoy Management
+          convenience. Western Station at Fossil Creek and LiveNJoy Management
           are not responsible for the privacy practices, content, or security of
           external websites. We encourage you to review the privacy policies of
           any website you visit before providing your personal information.
@@ -388,11 +388,11 @@ export default function LegalContent() {
         </motion.h1>
 
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B] mb-5">
-          Welcome to Western Station Apartment Homes. By accessing and using
+          Welcome to Western Station at Fossil Creek. By accessing and using
           this website, you agree to comply with and be bound by the following
           terms and conditions of use, which govern the relationship between{" "}
           <strong className="font-semibold text-[#232323]">
-            Western Station Apartment Homes
+            Western Station at Fossil Creek
           </strong>{" "}
           and{" "}
           <strong className="font-semibold text-[#232323]">
@@ -467,7 +467,7 @@ export default function LegalContent() {
         </motion.p>
 
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B] mb-5">
-          Neither Western Station Apartment Homes, LiveNJoy Management, nor any
+          Neither Western Station at Fossil Creek, LiveNJoy Management, nor any
           third parties provide any warranty or guarantee regarding the absolute
           accuracy, completeness, or timeliness of the information displayed on
           this website. All{" "}
@@ -487,7 +487,7 @@ export default function LegalContent() {
             approved credit (OAC)
           </strong>{" "}
           and will be processed after move-in. By using this website, you
-          acknowledge and agree that Western Station Apartment Homes and
+          acknowledge and agree that Western Station at Fossil Creek and
           LiveNJoy Management shall not be liable for any actions, decisions, or
           losses arising from reliance on the content presented on this website.
         </motion.p>
@@ -497,7 +497,7 @@ export default function LegalContent() {
         </motion.h1>
 
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B] mb-10">
-          Western Station Apartment Homes is committed to compliance with all
+          Western Station at Fossil Creek is committed to compliance with all
           federal, state, and local fair housing laws. We operate under a{" "}
           <strong className="font-semibold text-[#232323]">
             Resident First Approach
