@@ -43,7 +43,7 @@ export default function HousingVoucher() {
             >
               <p>
                 Western Station at Fossil Creek Apartments, located at 6700
-                Sandshell Blvd, Fort Worth, TX 76137 welcomes applicants and
+                Sandshell Blvd, Fort Worth, Texas welcomes applicants and
                 residents participating in the Housing Choice Voucher Program
                 and other rental assistance programs, subject to unit
                 availability, standard screening criteria, applicable income and

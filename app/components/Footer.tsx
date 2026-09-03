@@ -1,3 +1,5 @@
+"use client";
+
 import { siteConfig, footerLocation } from "@/app/config/content";
 import { Home, MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
 
@@ -46,8 +48,9 @@ export default function Footer() {
 
               {/* DESCRIPTION */}
               <p className="text-[15px] leading-[1.9] text-[#8e99ad] mb-8 font-[Plus_Jakarta_Sans]">
-                Affordable, safe, and clean living at the intersection of
-                comfort and community — in the heart of Sherman, TX.
+                Elegantly outfitted apartments and amazing amenity spaces
+                thoughtfully crafted to deliver an unrivaled living experience
+                in Fort Worth, TX.
               </p>
 
               {/* CONTACT */}
@@ -89,11 +92,17 @@ export default function Footer() {
                     className="text-[#76a1ff] shrink-0 mt-[3px]"
                   />
 
-                  <span>{siteConfig.hours}</span>
-                </div>
+                  <div className="flex flex-col gap-0">
+                    <span className="font-[Plus_Jakarta_Sans] text-[13px] leading-[1.4] text-[rgba(245,242,237,0.55)]">
+                      {siteConfig.hours}
+                    </span>
 
-                <div className="flex items-start gap-3">
-                  <span>{siteConfig.hours1}</span>
+                    {siteConfig.hours1 && (
+                      <span className="font-[Plus_Jakarta_Sans] text-[13px] leading-[1.4] text-[rgba(245,242,237,0.55)]">
+                        {siteConfig.hours1}
+                      </span>
+                    )}
+                  </div>
                 </div>
               </div>
 
@@ -238,8 +247,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        {process.env.NODE_ENV === "production" && <DisableInspect />}
       </section>
+
       <TourScheduler
         open={showTourScheduler}
         onClose={() => setShowTourScheduler(false)}

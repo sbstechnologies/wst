@@ -13,6 +13,7 @@ import SmoothScroll from "@/app/components/SmoothScroll";
 import { Instrument_Serif } from "next/font/google";
 
 import "@/app/globals.css";
+import CookieConsent from "./components/CookieConsent";
 
 const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
@@ -25,6 +26,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   themeColor: "#1E3872",
 };
+
+const clarityId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.westernstationapartments.com"),
@@ -227,16 +230,42 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           process.env.NEXT_PUBLIC_GTM_ID && (
             <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
           )}
-
+        {clarityId && (
+          <Script id="microsoft-clarity" strategy="afterInteractive">
+            {`
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);
+                t.async=1;
+                t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "${clarityId}");
+            `}
+          </Script>
+        )}
         {/* Disable Developer Tools */}
         {process.env.NODE_ENV === "production" && <DisableInspect />}
-
-        {/* Smooth Scrolling */}
+        <Script
+          id="schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(apartmentSchema),
+          }}
+        />
+        <Script
+          id="rentbamboo-charles"
+          src="https://charles.rentbamboo.com/w"
+          data-client-id="bamboo_1l359uhj"
+          data-position="right"
+          data-color="#1E3872"
+        />
+        "{/* Smooth Scrolling */}
         <SmoothScroll />
-
+        <CookieConsent />
         {/* Application */}
         {children}
-
         {/* Toast Notifications */}
         <Toaster
           position="top-right"

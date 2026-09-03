@@ -509,13 +509,15 @@ export default function Home() {
                   </span>
                 ))}
 
-                <span className="font-[Plus_Jakarta_Sans] inline-flex items-center gap-2 text-xs font-bold bg-[#fdf3e7] text-[#d9871e] px-4 py-2.5 rounded-full border border-[#e09428]/15">
+                {/* Pet Friendly */}
+                <span className="font-[Plus_Jakarta_Sans] inline-flex items-center gap-2 text-xs font-bold bg-[#fdf3e7] text-[#d9871e] px-4 py-2.5 rounded-full border border-[#e09428]/15 whitespace-nowrap ml-auto">
                   <svg
                     className="w-3.5 h-3.5 shrink-0"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                     strokeWidth="2.5"
+                    aria-hidden="true"
                   >
                     <circle cx="11" cy="4" r="2" />
                     <circle cx="18" cy="8" r="2" />
@@ -526,7 +528,7 @@ export default function Home() {
                       d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"
                     />
                   </svg>
-                  Pet friendly — cats &amp; dogs welcome
+                  Pet Friendly with Bark Park
                 </span>
               </div>
             </div>
@@ -1092,36 +1094,52 @@ export default function Home() {
           </div>
 
           {/* CONTACT INFO — stack on mobile */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 md:gap-8 flex-wrap">
-            <div className="flex items-center gap-3">
-              <Phone size={17} className="text-[#76a1ff] shrink-0" />
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-3 md:gap-4 flex-wrap">
+            {/* Phone */}
+            <a
+              href={`tel:${String(siteConfig.phone).replace(/[^\d+]/g, "")}`}
+              className="relative z-10 flex items-center gap-2 group cursor-pointer transition-all duration-300"
+              aria-label={`Call ${siteConfig.phone}`}
+            >
+              <Phone
+                size={17}
+                className="text-[#76a1ff] shrink-0 transition-transform duration-300 group-hover:scale-110"
+              />
 
-              <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)]">
+              <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)] transition-colors duration-300 group-hover:text-[#76a1ff]">
                 {siteConfig.phone}
               </span>
-            </div>
+            </a>
 
-            <div className="flex items-center gap-3">
-              <Mail size={17} className="text-[#76a1ff] shrink-0" />
+            {/* Email */}
+            <a
+              href={`mailto:${String(siteConfig.email).trim()}`}
+              className="relative z-10 flex items-center gap-2 group cursor-pointer transition-all duration-300"
+              aria-label={`Email ${siteConfig.email}`}
+            >
+              <Mail
+                size={17}
+                className="text-[#76a1ff] shrink-0 transition-transform duration-300 group-hover:scale-110"
+              />
 
-              <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)]">
+              <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)] transition-colors duration-300 group-hover:text-[#76a1ff]">
                 {siteConfig.email}
               </span>
-            </div>
+            </a>
 
-            <div className="flex items-start gap-3">
-              <Clock size={17} className="text-[#76a1ff] shrink-0 mt-[3px]" />
+            {/* Hours */}
+            <div className="flex items-center gap-2">
+              <Clock size={17} className="text-[#76a1ff] shrink-0" />
 
               <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)]">
                 {siteConfig.hours}
               </span>
             </div>
 
-            <div className="flex items-start gap-3">
-              <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)]">
-                {siteConfig.hours1}
-              </span>
-            </div>
+            {/* Hours 1 */}
+            <span className="font-[Plus_Jakarta_Sans] text-[13px] text-[rgba(245,242,237,0.55)]">
+              {siteConfig.hours1}
+            </span>
           </div>
         </div>
       </section>
