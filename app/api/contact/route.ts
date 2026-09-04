@@ -1,5 +1,3 @@
-// app/api/contact/route.ts
-
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
@@ -107,7 +105,7 @@ export async function POST(req: Request) {
 
     const toRecipients = ["wstmanager@livenjoymgt.com", "info@livenjoymgt.com"];
     if (resident === "Future Resident") {
-      toRecipients.push("sbstechnololgies.in@gmail.com");
+      toRecipients.push("western-station-apartments@rentbamboo.ai");
     }
 
     const ccRecipients: string[] = [];
@@ -405,7 +403,7 @@ export async function POST(req: Request) {
     </div>
 
     <div style="margin-top:8px;">
-      6700 Sandshell Blvd,
+      6700 Sandshell Blvd, </ br>
       Fort Worth, TX 76137
     </div>
 
