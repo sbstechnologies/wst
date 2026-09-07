@@ -262,6 +262,8 @@ export const siteConfig = {
   hours1: "Sat: 10:00 AM – 4:00 PM",
 
   website: "https://www.westernstationapartments.com",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/WSA?a=1588",
 };
 
 // ======================================================

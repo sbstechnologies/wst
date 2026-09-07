@@ -1062,11 +1062,12 @@ export default function Home() {
           </p>
 
           {/* CTA BUTTONS — stack on mobile */}
-          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-3.5 flex-wrap mb-10 sm:mb-12 px-4 sm:px-0">
+          <div className="mb-10 flex flex-col flex-wrap justify-center gap-3 px-4 sm:mb-12 sm:flex-row sm:gap-3.5 sm:px-0">
             <a
-              href="https://livenjoy.myresman.com/Portal/Applicants/New/POTS?a=1588"
+              href={siteConfig.applyLink}
               target="_blank"
-              className="flex items-center justify-center gap-2 px-8 sm:px-9 py-4 sm:py-[15px] rounded-full bg-[#1e3872] text-[#f5f2ed] font-[Plus_Jakarta_Sans] text-[14px] sm:text-[15px] font-bold cursor-pointer shadow-[rgba(30,56,114,0.5)_0px_4px_24px] tracking-[0.01em] border-none outline-none hover:opacity-95 transition-opacity"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#1e3872] px-8 py-4 font-[Plus_Jakarta_Sans] text-[14px] font-bold tracking-[0.01em] text-[#f5f2ed] shadow-[rgba(30,56,114,0.5)_0px_4px_24px] transition-opacity hover:opacity-95 sm:px-9 sm:py-[15px] sm:text-[15px]"
             >
               Apply Now
               <svg
@@ -1084,10 +1085,11 @@ export default function Home() {
                 <path d="m12 5 7 7-7 7" />
               </svg>
             </a>
+
             <a
               href="#"
               onClick={handleScheduleTour}
-              className="flex items-center justify-center gap-2 px-8 sm:px-9 py-4 sm:py-[15px] rounded-full bg-transparent text-[rgba(245,242,237,0.85)] font-[Plus_Jakarta_Sans] text-[14px] sm:text-[15px] font-semibold border-[1.5px] border-[rgba(245,242,237,0.25)] cursor-pointer tracking-[0.01em] hover:bg-white/[0.03] transition-colors"
+              className="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-[rgba(245,242,237,0.25)] bg-transparent px-8 py-4 font-[Plus_Jakarta_Sans] text-[14px] font-semibold tracking-[0.01em] text-[rgba(245,242,237,0.85)] transition-colors hover:bg-white/[0.03] sm:px-9 sm:py-[15px] sm:text-[15px]"
             >
               Schedule a Private Tour
             </a>

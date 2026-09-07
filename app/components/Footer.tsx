@@ -182,10 +182,10 @@ export default function Footer() {
               <ul className="space-y-6 text-[#b2bccd] text-[15px] font-[Plus_Jakarta_Sans]">
                 <li>
                   <a
-                    href="https://livenjoy.myresman.com/Portal/Applicants/New/POTS?a=1588"
+                    href={siteConfig.applyLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-white transition"
+                    className="transition hover:text-white"
                   >
                     Apply Online
                   </a>
