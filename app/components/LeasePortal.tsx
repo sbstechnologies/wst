@@ -217,23 +217,34 @@ export default function LeasePortal() {
                 setSelectedUnit(unit.code);
                 onSelect();
               }}
-              className={`flex w-full items-center gap-3 border-b border-[rgba(30,56,114,0.06)] px-5 py-3 text-left last:border-b-0 ${idx % 2 === 1 ? "bg-[rgba(30,56,114,0.027)]" : "bg-transparent"}`}
+              className={`flex w-full items-center gap-3 border-b border-[rgba(30,56,114,0.06)] px-5 py-3 text-left last:border-b-0 ${
+                idx % 2 === 1 ? "bg-[rgba(30,56,114,0.027)]" : "bg-transparent"
+              }`}
             >
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[10px] border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.08)]">
-                <span className="font-[Instrument_Serif] text-[13px] text-[#1e3872]">
+              {/* Unit Code */}
+              <div className="flex h-10 min-w-[72px] shrink-0 items-center justify-center rounded-full border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.08)] px-3">
+                <span className="whitespace-nowrap font-[Instrument_Serif] text-[13px] text-[#1e3872]">
                   {unit.code}
                 </span>
               </div>
-              <div className="flex-1 min-w-0">
-                <div className="text-[13px] font-semibold text-[#2d3230]">
+
+              {/* Unit Details */}
+              <div className="min-w-0 flex-1">
+                <div className="truncate text-[13px] font-semibold text-[#2d3230]">
                   {unit.label}
                 </div>
-                <div className="text-[11px] text-[#5a6260]">{unit.area}</div>
+
+                <div className="truncate text-[11px] text-[#5a6260]">
+                  {unit.area}
+                </div>
               </div>
+
+              {/* Price */}
               <div className="shrink-0 text-right">
-                <div className="font-[Instrument_Serif] text-[15px] text-[#2d3230]">
+                <div className="whitespace-nowrap font-[Instrument_Serif] text-[15px] text-[#2d3230]">
                   {unit.price}
                 </div>
+
                 <div className="text-[10px] font-semibold text-[#1e3872]">
                   Available
                 </div>
@@ -245,6 +256,7 @@ export default function LeasePortal() {
             <div className="font-[Instrument_Serif] text-[18px] text-[#1e3872]">
               No homes currently available
             </div>
+
             <p className="mt-1 text-[11px] leading-[1.5] text-[#5a6260]">
               Try another home type or check back for new availability.
             </p>

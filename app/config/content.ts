@@ -440,6 +440,7 @@ export const leasePortalConfig = {
       area: "674 sq ft",
       price: "$1,325/mo",
       beds: 1,
+      available: "3 available units",
     },
     {
       code: "A2",
@@ -447,6 +448,7 @@ export const leasePortalConfig = {
       area: "753 sq ft",
       price: "$1,345/mo",
       beds: 1,
+      available: "4 available units",
     },
     {
       code: "A3",
@@ -454,6 +456,7 @@ export const leasePortalConfig = {
       area: "789 sq ft",
       price: "$1,395/mo",
       beds: 1,
+      available: "2 available units",
     },
     {
       code: "A4 + DEN",
@@ -461,6 +464,7 @@ export const leasePortalConfig = {
       area: "888 sq ft",
       price: "$1,445/mo",
       beds: 1,
+      available: "2 available units",
     },
     {
       code: "A5 + DEN",
@@ -468,6 +472,7 @@ export const leasePortalConfig = {
       area: "967 sq ft",
       price: "$1,545/mo",
       beds: 1,
+      available: "3 available units",
     },
     {
       code: "B1",
@@ -475,6 +480,7 @@ export const leasePortalConfig = {
       area: "1,030 sq ft",
       price: "$1,770/mo",
       beds: 2,
+      available: "1 available unit",
     },
     {
       code: "B2",
@@ -482,6 +488,7 @@ export const leasePortalConfig = {
       area: "1,050 sq ft",
       price: "$1,785/mo",
       beds: 2,
+      available: "2 available units",
     },
     {
       code: "B3",
@@ -489,6 +496,7 @@ export const leasePortalConfig = {
       area: "1,204 sq ft",
       price: "$1,845/mo",
       beds: 2,
+      available: "3 available units",
     },
     {
       code: "C1",
@@ -496,6 +504,7 @@ export const leasePortalConfig = {
       area: "1,344 sq ft",
       price: "$1,915/mo",
       beds: 3,
+      available: "1 available unit",
     },
   ],
 
