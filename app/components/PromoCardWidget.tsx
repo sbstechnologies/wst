@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { Tag, X, Sparkles, ArrowRight } from "lucide-react";
-import { PromoCardWidgetConfig } from "../config/content";
-import { siteConfig } from "../config/content";
+import { PromoCardWidgetConfig } from "@/app/config/content";
+
 import Link from "next/link";
 
 export default function PromoCardWidget() {

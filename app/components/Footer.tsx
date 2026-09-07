@@ -187,7 +187,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="transition hover:text-white"
                   >
-                    Apply Online
+                    Apply Now
                   </a>
                 </li>
 
