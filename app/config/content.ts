@@ -1,6 +1,65 @@
-// app/config/content.ts
+// ======================================================
+// LEASE SPECIAL
+// ======================================================
 
-import { tr } from "framer-motion/client";
+export const lookLeaseSpecial = {
+  id: "look",
+  badge: "LOOK & LEASE SPECIAL",
+  text: "Huge Leasing Specials! Up to $400 off select floor plans & $500 off first month rent!",
+};
+
+export const floorPlansSpecial = {
+  id: "floor-plans-special",
+  badge: "LOOK & LEASE SPECIAL",
+  headline: "Special Promotion - Huge Specials",
+  badges: ["1BR from $1,175", "2BR from $1,370"],
+  phone: "(817) 577-8666",
+  tel: "tel:8175778666",
+};
+
+export const lookLeaseOffer = {
+  id: "look-lease-offer",
+  tagline: "LIMITED TIME OFFER",
+  title: "Look & Lease Special",
+  subtext:
+    "Up to $400/mo off 2-bedrooms plus $500 off 1st month rent when you apply within 48 hours of touring.",
+  highlight: " Must move in by September 30, 2026 !",
+  buttonText: "Call Now: (817) 577-8666",
+  buttonHref: "tel:8175778666",
+};
+
+// ======================================================
+// PROMOTION
+// ======================================================
+
+export const PromoCardWidgetConfig = {
+  label: "LIMITED TIME",
+  title: "Special Promotion",
+
+  cards: [
+    {
+      title: "Huge Leasing Specials",
+      text: "Up to ",
+      highlight: "$400/mo off 2-bedroom units + $500 Look & Lease credit",
+      suffix: " when applying within 48 hours.",
+      theme: "orange",
+    },
+    {
+      title: "Contact Us Today",
+      text: "Call us right now for full details.",
+      highlight: "Must move in by September 30, 2026.",
+      suffix: "Restrictions apply.",
+      theme: "blue",
+    },
+  ],
+
+  buttonText: "Apply Now",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/WSA?a=1588",
+
+  phone: "Call us: (817) 577-8666",
+  phoneLink: "tel:8175778666",
+};
 
 export const images = {
   // ==============================
@@ -306,16 +365,6 @@ export const footerLocation = [
 ];
 
 // ======================================================
-// LEASE SPECIAL
-// ======================================================
-
-export const lookLeaseSpecial = {
-  id: "look",
-  badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! Act fast for our best rates!",
-};
-
-// ======================================================
 // HEADER
 // ======================================================
 
@@ -471,36 +520,6 @@ export const leasePortalConfig = {
 
   availabilityText:
     "Prices and availability subject to change · Pets welcome · Call (817) 577-8666",
-};
-
-// ======================================================
-// PROMOTION
-// ======================================================
-
-export const PromoCardWidgetConfig = {
-  label: "Limited Time",
-  title: "Special Promotion",
-
-  cards: [
-    {
-      title: "Huge Leasing Specials",
-      text: "Act fast to lock in our",
-      highlight: "best rates",
-      suffix: "limited availability remaining.",
-      theme: "orange",
-    },
-    {
-      title: "Contact Us Today",
-      text: "",
-      highlight: "Call us right now",
-      suffix: " for full details on current offers. Restrictions apply",
-      theme: "blue",
-    },
-  ],
-
-  buttonText: "Apply Now",
-
-  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/WSA?a=1588",
 };
 
 // ======================================================
