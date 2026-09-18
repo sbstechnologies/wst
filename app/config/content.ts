@@ -94,6 +94,11 @@ export const images = {
   home26: "/images/property/26.webp",
   home27: "/images/property/27.webp",
 
+  home28: "/images/property/28.webp",
+  home29: "/images/property/29.webp",
+  home30: "/images/property/30.webp",
+  home31: "/images/property/31.webp",
+
   // ==============================
   // PROPERTY ALT TEXT
   // ==============================
@@ -167,6 +172,10 @@ export const images = {
     "Clubhouse resident lounge at Western Station at Fossil Creek",
 
   property_alt27: "24-hour fitness center at Western Station at Fossil Creek",
+  property_alt28: "Bedroom at Western Station at Fossil Creek",
+  property_alt29: "Bathroom at Western Station at Fossil Creek",
+  property_alt30: "Modern Bathroom at Western Station at Fossil Creek",
+  property_alt31: "Play area at Western Station at Fossil Creek",
 
   // ==============================
   // FLOOR PLAN IMAGES
@@ -353,16 +362,16 @@ export const tourSlots = [
 
 export const footerLocation = [
   {
-    label: "Alliance Town Center",
-    distance: "Nearby",
-  },
-  {
-    label: "Alexandra Meadows Park",
-    distance: "Nearby",
-  },
-  {
     label: "Fossil Creek Center",
-    distance: "Nearby",
+    distance: "0.8 mi",
+  },
+  {
+    label: "Alliance Town Center",
+    distance: "3.5 mi",
+  },
+  {
+    label: "Downtown Fort Worth",
+    distance: "10.5 mi",
   },
 ];
 
@@ -628,7 +637,6 @@ export const homePageConfig = {
       subtitle: "Grocery & Retail",
       badge: "➜ 3 min drive",
       distance: "0.8 mi",
-
       theme: "blue",
     },
     {
@@ -637,7 +645,6 @@ export const homePageConfig = {
       subtitle: "Higher Education",
       badge: "➜ 6 min drive",
       distance: "2.5 mi",
-
       theme: "orange",
     },
     {
@@ -646,26 +653,6 @@ export const homePageConfig = {
       subtitle: "Major Employer",
       badge: "➜ 8 min drive",
       distance: "4.2 mi",
-
-      theme: "gray",
-    },
-
-    {
-      icon: "🛍️",
-      title: "Alliance Town Center",
-      subtitle: "Dining, Shopping & Entertainment",
-      badge: "➜ 8 min drive",
-      distance: "3.5 mi",
-
-      theme: "orange",
-    },
-    {
-      icon: "🍽️",
-      title: "Shady Oak Barbeque & Grill",
-      subtitle: "Local Eats & Dining",
-      badge: "➜ 4 min drive",
-      distance: "1.9 mi",
-
       theme: "gray",
     },
     {
@@ -674,8 +661,23 @@ export const homePageConfig = {
       subtitle: "Parks & Recreation",
       badge: "➜ 3 min drive",
       distance: "1.4 mi",
-
       theme: "blue",
+    },
+    {
+      icon: "🛍️",
+      title: "Alliance Town Center",
+      subtitle: "Dining, Shopping & Entertainment",
+      badge: "➜ 8 min drive",
+      distance: "3.5 mi",
+      theme: "orange",
+    },
+    {
+      icon: "🍽️",
+      title: "Shady Oak Barbeque & Grill",
+      subtitle: "Local Eats & Dining",
+      badge: "➜ 4 min drive",
+      distance: "1.9 mi",
+      theme: "gray",
     },
     {
       icon: "🏫",
@@ -685,50 +687,24 @@ export const homePageConfig = {
       distance: "2.1 mi",
       theme: "blue",
     },
-
-    {
-      icon: "🌳",
-      title: "West Fork Ranch Park",
-      subtitle: "Outdoor Recreation",
-      badge: "➜ Nearby",
-      distance: "North Fort Worth",
-      theme: "orange",
-    },
-    {
-      icon: "🏫",
-      title: "Basswood Elementary School",
-      subtitle: "Keller ISD",
-      badge: "➜ Nearby",
-      distance: "Fossil Creek Area",
-      theme: "blue",
-    },
   ],
 
   nearbyPlaces: [
     // Education
-    "Basswood Elementary School",
-    "North Riverside Elementary School",
-    "Fossil Hill Middle School",
-    "Tarrant County College",
+    "Keller ISD",
+    "Basswood Elementary",
+    "North Riverside Elementary",
 
     // Shopping & Retail
-    "Fossil Creek Center",
     "Victory Shops at Basswood",
-    "Alliance Town Center",
+
+    // Areas
+    "Fossil Creek Area",
+    "Alliance Area",
 
     // Parks & Recreation
-    "Alexandra Meadows Park",
-    "West Fork Ranch Park",
-    "Fort Worth Botanic Garden",
     "Fort Worth Zoo",
     "Burger's Lake",
-    "Cowtown Cattlepen Maze",
-
-    // Dining
-    "Texas Pit Oyster Bar",
-    "Wabi Sabi Sushi",
-    "Shady Oak Barbeque & Grill",
-    "Hangout Tacos",
   ],
 
   locationAreas: ["Keller ISD", "Fossil Creek Area", "Alliance Area"],
@@ -929,16 +905,16 @@ export const plans = {
 };
 
 export const interiorPhotos = {
-  "Living Room": images.home1,
-  Bedroom: images.home2,
-  Kitchen: images.home3,
-  Bathroom: images.home4,
+  "Living Room": images.home12,
+  Bedroom: images.home28,
+  Kitchen: images.home9,
+  Bathroom: images.home29,
 } as const;
 
 export const amenityPhotos = {
-  Pool: images.home16,
-  Parking: images.home3,
-  "Dog Park": images.home7,
+  Pool: images.home18,
+  Parking: images.home2,
+  "Dog Park": images.home31,
   Gym: images.home27,
 } as const;
 
@@ -1395,7 +1371,7 @@ export const posts: Post[] = [
     readTime: "6 min",
     initials: "WS",
     author: "Western Station Team",
-    date: "Aug 10, 2026",
+    date: "",
 
     title: "The Best Parks, Trails & Outdoor Escapes in North Fort Worth",
 
@@ -1420,7 +1396,7 @@ export const posts: Post[] = [
     readTime: "3 min",
     initials: "WS",
     author: "Western Station Team",
-    date: "Aug 5, 2026",
+    date: "",
 
     title: "Your Weekend Guide to Alliance Town Center",
 
@@ -1445,7 +1421,7 @@ export const posts: Post[] = [
     readTime: "5 min",
     initials: "WS",
     author: "Western Station Team",
-    date: "Jul 28, 2026",
+    date: "",
 
     title: "A Local Guide to Dining Around North Fort Worth",
 
@@ -1470,7 +1446,7 @@ export const posts: Post[] = [
     readTime: "7 min",
     initials: "WS",
     author: "Western Station Team",
-    date: "Jul 20, 2026",
+    date: "",
 
     title: "Tacos, Seafood & Casual Favorites Near Western Station",
 
@@ -1495,7 +1471,7 @@ export const posts: Post[] = [
     readTime: "4 min",
     initials: "WS",
     author: "Western Station Team",
-    date: "Jul 20, 2026",
+    date: "",
 
     title:
       "Weekend Escapes: From Burger's Lake to the Fort Worth Botanic Garden",
@@ -1526,7 +1502,7 @@ export const featuredPost: Post = {
   readTime: "5 min",
   initials: "WS",
   author: "Western Station Team",
-  date: "Aug 17, 2026",
+  date: "",
 
   title: "Mouth-Watering BBQ & Local Eats Near Fossil Creek",
 
@@ -1563,7 +1539,7 @@ export const articles = [
     authorInitials: "WS",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Western Station Team",
-    date: "Aug 17",
+    date: "",
     title: "Mouth-Watering BBQ & Local Eats Near Fossil Creek",
     description:
       "Discover BBQ, sushi, casual restaurants, and local favorites around Fossil Creek and North Fort Worth.",
@@ -1578,7 +1554,7 @@ export const articles = [
     authorInitials: "WS",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
     authorName: "Western Station Team",
-    date: "Aug 10",
+    date: "",
     title: "The Best Parks, Trails & Outdoor Escapes in North Fort Worth",
     description:
       "Discover scenic parks, walking trails, picnic spots, and outdoor destinations near Western Station.",
@@ -1593,7 +1569,7 @@ export const articles = [
     authorInitials: "WS",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
     authorName: "Western Station Team",
-    date: "Aug 5",
+    date: "",
     title: "Your Weekend Guide to Alliance Town Center",
     description:
       "Shop, dine, relax, and discover family-friendly entertainment at Alliance Town Center near Western Station.",
@@ -1608,7 +1584,7 @@ export const articles = [
     authorInitials: "WS",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Western Station Team",
-    date: "Jul 28",
+    date: "",
     title: "A Local Guide to Dining Around North Fort Worth",
     description:
       "Explore Texas BBQ, sushi, cafés, casual restaurants, and local food experiences near Western Station.",
@@ -1623,7 +1599,7 @@ export const articles = [
     authorInitials: "WS",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Western Station Team",
-    date: "Jul 20",
+    date: "",
     title: "Tacos, Seafood & Casual Favorites Near Western Station",
     description:
       "Discover relaxed neighborhood dining, from flavorful tacos to seafood favorites around North Fort Worth.",
@@ -1638,7 +1614,7 @@ export const articles = [
     authorInitials: "WS",
     authorBg: "bg-[#5a3a7a]/10 text-[#5a3a7a]",
     authorName: "Western Station Team",
-    date: "Jul 20",
+    date: "",
     title:
       "Weekend Escapes: From Burger's Lake to the Fort Worth Botanic Garden",
     description:

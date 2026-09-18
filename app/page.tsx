@@ -217,7 +217,7 @@ export default function Home() {
 
             {/* 2. HERO HEADING */}
             <h1 className="font-['Instrument_Serif',Georgia,serif] text-[clamp(3rem,7.3vw,9.3rem)] leading-[1.05] tracking-[-0.03em] text-[#F5F2ED]">
-              Luxury Apartment Homes
+              Comfortable Living
               <br />
               <em className="inline-block italic text-[#E09428]/90">
                 in North Fort Worth
@@ -1058,7 +1058,7 @@ export default function Home() {
 
           <p className="font-[Plus_Jakarta_Sans] text-[14px] sm:text-[16px] leading-[1.65] text-[rgba(245,242,237,0.55)] mb-8 sm:mb-11 max-w-[480px] mx-auto">
             Start your application online or schedule a private tour with our
-            leasing team &mdash; we're available 7 days a week.
+            leasing team today.
           </p>
 
           {/* CTA BUTTONS — stack on mobile */}

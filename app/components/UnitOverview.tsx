@@ -154,18 +154,18 @@ export default function UnitOverview({
   const interiorPhotos = useMemo(
     () => ({
       "Living Room": images.home12,
-      Bedroom: images.home8,
+      Bedroom: images.home28,
       Kitchen: images.home9,
-      Bathroom: images.home10,
+      Bathroom: images.home29,
     }),
     [images],
   );
 
   const amenityPhotos = useMemo(
     () => ({
-      Pool: images.home16,
-      Parking: images.home3,
-      "Dog Park": images.home2,
+      Pool: images.home18,
+      Parking: images.home2,
+      "Dog Park": images.home31,
       Gym: images.home27,
     }),
     [images],
