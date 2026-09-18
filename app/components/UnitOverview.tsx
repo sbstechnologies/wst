@@ -59,6 +59,10 @@ type UnitImages = {
   home25: string;
   home26: string;
   home27: string;
+  home28: string;
+  home29: string;
+  home30: string;
+  home31: string;
 };
 
 type UnitOverviewProps = {
