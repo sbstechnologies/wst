@@ -5,13 +5,13 @@
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! Up to $400 off select floor plans & $500 off first month rent!",
+  text: "Huge Leasing Specials! Up to 8 Weeks Free Rent!",
 };
 
 export const floorPlansSpecial = {
   id: "floor-plans-special",
   badge: "LOOK & LEASE SPECIAL",
-  headline: "Special Promotion - Huge Specials",
+  headline: "Special Promotion - Huge Specials - 8 Weeks Free Rent",
   badges: ["1BR from $1,175", "2BR from $1,370"],
   phone: "(817) 577-8666",
   tel: "tel:8175778666",
@@ -21,8 +21,7 @@ export const lookLeaseOffer = {
   id: "look-lease-offer",
   tagline: "LIMITED TIME OFFER",
   title: "Look & Lease Special",
-  subtext:
-    "Up to $400/mo off 2-bedrooms plus $500 off 1st month rent when you apply within 48 hours of touring.",
+  subtext: "8 Weeks Free Rent. when you apply within 48 hours of touring.",
   highlight: " Must move in by September 30, 2026 !",
   buttonText: "Call Now: (817) 577-8666",
   buttonHref: "tel:8175778666",
@@ -40,7 +39,7 @@ export const PromoCardWidgetConfig = {
     {
       title: "Huge Leasing Specials",
       text: "Up to ",
-      highlight: "$400/mo off 2-bedroom units + $500 Look & Lease credit",
+      highlight: "8 Weeks Free Rent",
       suffix: " when applying within 48 hours.",
       theme: "orange",
     },
