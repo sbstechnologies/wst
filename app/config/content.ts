@@ -5,7 +5,7 @@
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! Up to 8 Weeks Free Rent!",
+  text: "Huge Leasing Specials! 8 Weeks Free Rent!",
 };
 
 export const floorPlansSpecial = {
@@ -38,7 +38,7 @@ export const PromoCardWidgetConfig = {
   cards: [
     {
       title: "Huge Leasing Specials",
-      text: "Up to ",
+      text: "",
       highlight: "8 Weeks Free Rent",
       suffix: " when applying within 48 hours.",
       theme: "orange",
