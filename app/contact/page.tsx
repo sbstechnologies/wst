@@ -115,7 +115,7 @@ export default function Contact() {
 
                     <a
                       href={`mailto:${siteConfig.email}`}
-                      className="mt-1 inline-block break-all text-[16px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
                       {siteConfig.email}
                     </a>
@@ -123,7 +123,7 @@ export default function Contact() {
 
                     <a
                       href={`mailto:${siteConfig.assistanceManagerEmail}`}
-                      className="mt-1 inline-block break-all text-[16px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
                       {siteConfig.assistanceManagerEmail}
                     </a>
@@ -131,7 +131,7 @@ export default function Contact() {
 
                     <a
                       href={`mailto:${siteConfig.LeasingEmail}`}
-                      className="mt-1 inline-block break-all text-[16px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
                       {siteConfig.LeasingEmail}
                     </a>
