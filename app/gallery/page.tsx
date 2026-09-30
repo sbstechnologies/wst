@@ -86,6 +86,12 @@ export default function Gallery() {
         gallery.filter((item) => item.category === "Amenities").length,
       ),
     },
+    {
+      label: "Neighborhood",
+      count: String(
+        gallery.filter((item) => item.category === "Neighborhood").length,
+      ),
+    },
   ];
 
   const closeModal = () => setCurrentIndex(null);

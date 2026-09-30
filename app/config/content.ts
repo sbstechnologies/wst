@@ -266,6 +266,9 @@ export const siteConfig = {
   email: "wstmanager@livenjoymgt.com",
   propertyManagerEmail: "wstmanager@livenjoymgt.com",
 
+  LeasingEmail: "wstleasing@livenjoymgt.com",
+  assistanceManagerEmail: "wstasstmanager@livenjoymgt.com",
+
   hours: "Mon–Fri: 8:30 AM – 5:30 PM",
   hours1: "Sat: 10:00 AM – 4:00 PM",
 

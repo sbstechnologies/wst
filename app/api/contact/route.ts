@@ -103,7 +103,12 @@ export async function POST(req: Request) {
       },
     });
 
-    const toRecipients = ["wstmanager@livenjoymgt.com", "info@livenjoymgt.com"];
+    const toRecipients = [
+      "wstmanager@livenjoymgt.com",
+      "wstleasing@livenjoymgt.com",
+      "wstasstmanager@livenjoymgt.com",
+      "info@livenjoymgt.com",
+    ];
     if (resident === "Future Resident") {
       toRecipients.push("western-station-apartments@rentbamboo.ai");
     }
