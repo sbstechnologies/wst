@@ -74,7 +74,7 @@ export default function PromoCardWidget() {
           </div>
 
           {/* Item Row 2 */}
-          <div className="flex items-start gap-2 rounded-[10px] border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.06)] p-2.5 px-3">
+          <div className="flex items-start gap-3 rounded-[10px] border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.06)] p-2.5 px-3">
             <Sparkles size={13} className="mt-[1px] shrink-0 text-[#1E3872]" />
 
             <div>

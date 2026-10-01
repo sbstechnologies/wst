@@ -5,13 +5,13 @@
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! 8 Weeks Free Rent!",
+  text: "1-Month Free Special for October Move-Ins Only!",
 };
 
 export const floorPlansSpecial = {
   id: "floor-plans-special",
   badge: "LOOK & LEASE SPECIAL",
-  headline: "Special Promotion - Huge Specials - 8 Weeks Free Rent",
+  headline: "Special Promotion - 1 Month Free Rent (Approved October Move-Ins)",
   badges: ["1BR from $1,175", "2BR from $1,370"],
   phone: "(817) 577-8666",
   tel: "tel:8175778666",
@@ -21,8 +21,9 @@ export const lookLeaseOffer = {
   id: "look-lease-offer",
   tagline: "LIMITED TIME OFFER",
   title: "Look & Lease Special",
-  subtext: "8 Weeks Free Rent. when you apply within 48 hours of touring.",
-  highlight: " Must move in by September 30, 2026 !",
+  subtext: "1 Month Free! Applies to approved October move-ins only.",
+  highlight:
+    "Move-ins on or before the 20th receive the concession on the first full month of the lease term. Move-ins after the 20th will receive the concession on the second full month of the lease term.",
   buttonText: "Call Now: (817) 577-8666",
   buttonHref: "tel:8175778666",
 };
@@ -39,15 +40,16 @@ export const PromoCardWidgetConfig = {
     {
       title: "Huge Leasing Specials",
       text: "",
-      highlight: "8 Weeks Free Rent",
-      suffix: " when applying within 48 hours.",
+      highlight: "1 Month Free Rent",
+      suffix: "Applies to approved October move-ins only.",
       theme: "orange",
     },
     {
       title: "Contact Us Today",
       text: "Call us right now for full details.",
-      highlight: "Must move in by September 30, 2026.",
-      suffix: "Restrictions apply.",
+      highlight:
+        "Move in by the 20th to apply the concession to your 1st full month;",
+      suffix: "Move in after, and it applies to your 2nd full month.",
       theme: "blue",
     },
   ],

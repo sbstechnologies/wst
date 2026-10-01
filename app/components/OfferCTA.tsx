@@ -17,7 +17,7 @@ export default function OfferCTA({
 }: OfferCTAProps) {
   return (
     <section className="mx-auto bg-[#f5f2ed] px-6 pb-14 md:px-20 md:pb-20 lg:px-40 xl:px-40 xxl:px-80">
-      <div className="mx-auto flex max-w-[1600px] flex-col gap-6 rounded-[26px] bg-[#db8d1f] px-8 py-7 md:px-12 md:py-9 lg:flex-row lg:items-center lg:justify-between">
+      <div className="mx-auto flex max-w-[1920px] flex-col gap-6 rounded-[26px] bg-[#db8d1f] px-8 py-7 md:px-12 md:py-9 lg:flex-row lg:items-center lg:justify-between">
         {/* CONTENT */}
         <div>
           <p className="mb-4 font-[Plus_Jakarta_Sans] text-xs font-semibold tracking-[0.3em] text-white/90">
@@ -28,7 +28,7 @@ export default function OfferCTA({
             {title}
           </h2>
 
-          <p className="mt-3 max-w-[900px] font-[Plus_Jakarta_Sans] text-[17px] leading-relaxed text-white md:text-[18px]">
+          <p className="mt-3 max-w-[820px] font-[Plus_Jakarta_Sans] text-[17px] leading-relaxed text-white md:text-[18px]">
             {subtext}
             {highlight && (
               <span className="block mt-2 font-bold text-[#f5f2ed]">
