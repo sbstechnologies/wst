@@ -231,8 +231,10 @@ export default function Contact() {
       <OfferCTA
         tagline={lookLeaseOffer.tagline}
         title={lookLeaseOffer.title}
+        main_text={lookLeaseOffer.main_text}
         subtext={lookLeaseOffer.subtext}
         highlight={lookLeaseOffer.highlight}
+        suffix={lookLeaseOffer.suffix}
         buttonText={lookLeaseOffer.buttonText}
         buttonHref={lookLeaseOffer.buttonHref}
       />

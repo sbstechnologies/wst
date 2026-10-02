@@ -1,8 +1,10 @@
 type OfferCTAProps = {
   tagline: string;
   title: string;
+  main_text: string;
   subtext: string;
   highlight?: string;
+  suffix?: string;
   buttonText: string;
   buttonHref: string;
 };
@@ -10,8 +12,10 @@ type OfferCTAProps = {
 export default function OfferCTA({
   tagline,
   title,
+  main_text,
   subtext,
   highlight,
+  suffix,
   buttonText,
   buttonHref,
 }: OfferCTAProps) {
@@ -29,10 +33,18 @@ export default function OfferCTA({
           </h2>
 
           <p className="mt-3 max-w-[820px] font-[Plus_Jakarta_Sans] text-[17px] leading-relaxed text-white md:text-[18px]">
-            {subtext}
+            {main_text}
+            <br />{" "}
+            <strong className="font-bold text-[#2D3230]">{subtext}</strong>{" "}
+            <br /> <br />{" "}
             {highlight && (
               <span className="block mt-2 font-bold text-[#f5f2ed]">
                 {highlight}
+              </span>
+            )}{" "}
+            {suffix && (
+              <span className="block mt-2 font-bold text-[#f5f2ed]">
+                {suffix}
               </span>
             )}
           </p>

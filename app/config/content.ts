@@ -5,7 +5,7 @@
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "1-Month Free Special for October Move-Ins Only!",
+  text: "1-Month Free Special for October Move-Ins Only! Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
 };
 
 export const floorPlansSpecial = {
@@ -21,9 +21,13 @@ export const lookLeaseOffer = {
   id: "look-lease-offer",
   tagline: "LIMITED TIME OFFER",
   title: "Look & Lease Special",
-  subtext: "1 Month Free! Applies to approved October move-ins only.",
+  main_text: "1 Month Free! Applies to approved October move-ins only.",
+  subtext: "Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
   highlight:
-    "Move-ins on or before the 20th receive the concession on the first full month of the lease term. Move-ins after the 20th will receive the concession on the second full month of the lease term.",
+    "Move-ins on or before the 20th receive the concession on the first full month of the lease term.",
+  suffix:
+    "Move-ins after the 20th will receive the concession on the second full month of the lease term.",
+
   buttonText: "Call Now: (817) 577-8666",
   buttonHref: "tel:8175778666",
 };
@@ -39,9 +43,10 @@ export const PromoCardWidgetConfig = {
   cards: [
     {
       title: "Huge Leasing Specials",
-      text: "",
-      highlight: "1 Month Free Rent",
-      suffix: "Applies to approved October move-ins only.",
+      prefix_text: "",
+      highlight: "1 Month Free Rent:",
+      text: "Applies to approved October move-ins only.",
+      suffix: "Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
       theme: "orange",
     },
     {
@@ -49,7 +54,7 @@ export const PromoCardWidgetConfig = {
       text: "Call us right now for full details.",
       highlight:
         "Move in by the 20th to apply the concession to your 1st full month;",
-      suffix: "Move in after, and it applies to your 2nd full month.",
+      suffix: "move in after, and it applies to your 2nd full month.",
       theme: "blue",
     },
   ],

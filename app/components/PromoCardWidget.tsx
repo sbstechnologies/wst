@@ -63,12 +63,13 @@ export default function PromoCardWidget() {
               </p>
 
               <p className="m-0 mt-[2px] font-['Plus_Jakarta_Sans'] text-[11px] leading-[1.45] text-[#5A6260]">
-                {PromoCardWidgetConfig.cards[0].text}{" "}
                 <strong className="font-bold text-[#2D3230]">
                   {PromoCardWidgetConfig.cards[0].highlight}
-                </strong>
-                <br />
-                {PromoCardWidgetConfig.cards[0].suffix}
+                </strong>{" "}
+                {PromoCardWidgetConfig.cards[0].text} <br />
+                <strong className="font-bold text-[#2D3230]">
+                  {PromoCardWidgetConfig.cards[0].suffix}
+                </strong>{" "}
               </p>
             </div>
           </div>
