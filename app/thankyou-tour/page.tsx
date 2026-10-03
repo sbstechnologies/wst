@@ -115,11 +115,11 @@ export default function Contact() {
                       LEASING INQUIRIES
                     </p>
                     <a
-                      href={`mailto:${siteConfig.email}`}
+                      href={`mailto:${siteConfig.LeasingEmail}`}
                       className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
-                      {siteConfig.email}
-                    </a>
+                      {siteConfig.LeasingEmail}
+                    </a>{" "}
                     <br></br>
                     <a
                       href={`mailto:${siteConfig.assistanceManagerEmail}`}
@@ -129,10 +129,10 @@ export default function Contact() {
                     </a>{" "}
                     <br></br>
                     <a
-                      href={`mailto:${siteConfig.LeasingEmail}`}
+                      href={`mailto:${siteConfig.email}`}
                       className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
-                      {siteConfig.LeasingEmail}
+                      {siteConfig.email}
                     </a>
                   </div>
                 </div>

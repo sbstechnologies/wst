@@ -114,28 +114,25 @@ export default function Contact() {
                     <p className="text-xs font-semibold tracking-[0.08em] text-[#6b7280]">
                       LEASING INQUIRIES
                     </p>
-
-                    <a
-                      href={`mailto:${siteConfig.email}`}
-                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
-                    >
-                      {siteConfig.email}
-                    </a>
-                    <br></br>
-
-                    <a
-                      href={`mailto:${siteConfig.assistanceManagerEmail}`}
-                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
-                    >
-                      {siteConfig.assistanceManagerEmail}
-                    </a>
-                    <br></br>
-
                     <a
                       href={`mailto:${siteConfig.LeasingEmail}`}
                       className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
                       {siteConfig.LeasingEmail}
+                    </a>
+                    <br></br>
+                    <a
+                      href={`mailto:${siteConfig.assistanceManagerEmail}`}
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                    >
+                      {siteConfig.assistanceManagerEmail}
+                    </a>{" "}
+                    <br></br>
+                    <a
+                      href={`mailto:${siteConfig.email}`}
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                    >
+                      {siteConfig.email}
                     </a>
                   </div>
                 </div>
