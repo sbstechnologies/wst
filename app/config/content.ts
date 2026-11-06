@@ -5,13 +5,14 @@
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "1-Month Free Special for October Move-Ins Only! Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
+  text: "1-Month Free Special for November Move-Ins Only! Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
 };
 
 export const floorPlansSpecial = {
   id: "floor-plans-special",
   badge: "LOOK & LEASE SPECIAL",
-  headline: "Special Promotion - 1 Month Free Rent (Approved October Move-Ins)",
+  headline:
+    "Special Promotion - 1 Month Free Rent (Approved November Move-Ins)",
   badges: ["1BR from $1,175", "2BR from $1,370"],
   phone: "(817) 577-8666",
   tel: "tel:8175778666",
@@ -21,7 +22,7 @@ export const lookLeaseOffer = {
   id: "look-lease-offer",
   tagline: "LIMITED TIME OFFER",
   title: "Look & Lease Special",
-  main_text: "1 Month Free! Applies to approved October move-ins only.",
+  main_text: "1 Month Free! Applies to approved November move-ins only.",
   subtext: "Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
   highlight:
     "Move-ins on or before the 20th receive the concession on the first full month of the lease term.",
@@ -45,7 +46,7 @@ export const PromoCardWidgetConfig = {
       title: "Huge Leasing Specials",
       prefix_text: "",
       highlight: "1 Month Free Rent:",
-      text: "Applies to approved October move-ins only.",
+      text: "Applies to approved November move-ins only.",
       suffix: "Reduced Prices! 1BR from $1,175 | 2BR from $1,370",
       theme: "orange",
     },
