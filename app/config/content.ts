@@ -1,7 +1,33 @@
 // ======================================================
-// LEASE SPECIAL
+// SITE CONFIG
 // ======================================================
 
+export const siteConfig = {
+  name: "Western Station at Fossil Creek",
+  shortName: "Western Station",
+
+  address: "6700 Sandshell Blvd, Fort Worth, TX 76137",
+
+  phone: "(817) 577-8666",
+  tel: "tel:+18175778666",
+
+  email: "wstmanager@livenjoymgt.com",
+  propertyManagerEmail: "wstmanager@livenjoymgt.com",
+
+  LeasingEmail: "wstleasing@livenjoymgt.com",
+  assistanceManagerEmail: "wstasstmanager@livenjoymgt.com",
+
+  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
+  hours1: "Sat: 10:00 AM – 4:00 PM",
+
+  website: "https://www.westernstationapartments.com",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/WSA?a=1588",
+};
+
+// ======================================================
+// LEASE SPECIAL
+// ======================================================
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
@@ -256,33 +282,6 @@ export const images = {
 
   blog_alt6:
     "Farm to table dining and local restaurant experience near Western Station Apartments",
-};
-
-// ======================================================
-// SITE CONFIG
-// ======================================================
-
-export const siteConfig = {
-  name: "Western Station at Fossil Creek",
-  shortName: "Western Station",
-
-  address: "6700 Sandshell Blvd, Fort Worth, TX 76137",
-
-  phone: "(817) 577-8666",
-  tel: "tel:+18175778666",
-
-  email: "wstmanager@livenjoymgt.com",
-  propertyManagerEmail: "wstmanager@livenjoymgt.com",
-
-  LeasingEmail: "wstleasing@livenjoymgt.com",
-  assistanceManagerEmail: "wstasstmanager@livenjoymgt.com",
-
-  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
-  hours1: "Sat: 10:00 AM – 4:00 PM",
-
-  website: "https://www.westernstationapartments.com",
-
-  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/WSA?a=1588",
 };
 
 // ======================================================
